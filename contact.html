@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with the TravelGo team.">
+  <title>Contact - TravelGo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Travel<span>Go</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== BANNER ========== -->
+  <section class="page-banner">
+    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=70" alt="Mountain peaks above the clouds">
+    <div class="banner-text">
+      <h1>Contact Us</h1>
+      <p>Questions about a trip? We would love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section">
+    <div class="container contact-grid">
+
+      <div class="form-box">
+        <h2>Get in Touch</h2>
+        <ul class="contact-info">
+          <li><strong>Email</strong>hello@travelgo.com</li>
+          <li><strong>Phone</strong>+91 98765 43210</li>
+          <li><strong>Address</strong>Chennai, Tamil Nadu, India</li>
+          <li><strong>Hours</strong>Mon - Sat, 9:00 AM - 7:00 PM</li>
+        </ul>
+      </div>
+
+      <div class="form-box">
+        <h2>Send a Message</h2>
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="contactName">Name</label>
+            <input type="text" id="contactName" placeholder="Your name">
+            <p class="error" id="contactNameError"></p>
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email</label>
+            <input type="email" id="contactEmail" placeholder="you@example.com">
+            <p class="error" id="contactEmailError"></p>
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" placeholder="How can we help you?"></textarea>
+            <p class="error" id="contactMessageError"></p>
+          </div>
+          <button type="submit" class="btn btn-full">Send Message</button>
+          <p class="success" id="contactSuccess"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>TravelGo</h4>
+          <p>Your trusted partner for unforgettable journeys around the world.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>hello@travelgo.com</li>
+            <li>+91 98765 43210</li>
+            <li>Chennai, India</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2026 TravelGo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

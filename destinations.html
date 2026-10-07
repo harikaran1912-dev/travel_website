@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse all TravelGo destinations.">
+  <title>Destinations - TravelGo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Travel<span>Go</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="destinations.html" class="active">Destinations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== BANNER ========== -->
+  <section class="page-banner">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=70" alt="Tropical beach with clear blue water">
+    <div class="banner-text">
+      <h1>Our Destinations</h1>
+      <p>Pick your next adventure from our favourite places around the world.</p>
+    </div>
+  </section>
+
+  <!-- ========== ALL DESTINATIONS ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-3">
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=70" alt="Paris">
+          <div class="card-body">
+            <h3>Paris</h3>
+            <p class="country">France</p>
+            <p>Experience the City of Lights, famous landmarks, beautiful streets, culture, and delicious cuisine.</p>
+            <div class="card-footer">
+              <span class="price">From ₹45,000</span>
+              <button class="btn book-btn" data-destination="Paris">Book Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=70" alt="Dubai">
+          <div class="card-body">
+            <h3>Dubai</h3>
+            <p class="country">UAE</p>
+            <p>Explore modern architecture, luxury shopping, desert adventures, and unforgettable experiences.</p>
+            <div class="card-footer">
+              <span class="price">From ₹30,000</span>
+              <button class="btn book-btn" data-destination="Dubai">Book Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=70" alt="Maldives">
+          <div class="card-body">
+            <h3>Maldives</h3>
+            <p class="country">Maldives</p>
+            <p>Relax on beautiful beaches, enjoy crystal-clear waters, and experience peaceful island life.</p>
+            <div class="card-footer">
+              <span class="price">From ₹55,000</span>
+              <button class="btn book-btn" data-destination="Maldives">Book Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=800&q=70" alt="Singapore">
+          <div class="card-body">
+            <h3>Singapore</h3>
+            <p class="country">Singapore</p>
+            <p>Discover modern attractions, beautiful gardens, amazing food, and exciting city experiences.</p>
+            <div class="card-footer">
+              <span class="price">From ₹40,000</span>
+              <button class="btn book-btn" data-destination="Singapore">Book Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=70" alt="London">
+          <div class="card-body">
+            <h3>London</h3>
+            <p class="country">UK</p>
+            <p>Explore historic landmarks, beautiful streets, museums, culture, and the charm of London.</p>
+            <div class="card-footer">
+              <span class="price">From ₹60,000</span>
+              <button class="btn book-btn" data-destination="London">Book Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=70" alt="Goa">
+          <div class="card-body">
+            <h3>Goa</h3>
+            <p class="country">India</p>
+            <p>Enjoy beautiful beaches, relaxing holidays, local food, and exciting coastal experiences.</p>
+            <div class="card-footer">
+              <span class="price">From ₹15,000</span>
+              <button class="btn book-btn" data-destination="Goa">Book Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=70" alt="Bali">
+          <div class="card-body">
+            <h3>Bali</h3>
+            <p class="country">Indonesia</p>
+            <p>Wander through green rice terraces, peaceful temples, surf beaches, and vibrant island culture.</p>
+            <div class="card-footer">
+              <span class="price">From ₹35,000</span>
+              <button class="btn book-btn" data-destination="Bali">Book Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=800&q=70" alt="Switzerland">
+          <div class="card-body">
+            <h3>Switzerland</h3>
+            <p class="country">Switzerland</p>
+            <p>Enjoy snowy peaks, crystal lakes, scenic train rides, and charming alpine villages.</p>
+            <div class="card-footer">
+              <span class="price">From ₹75,000</span>
+              <button class="btn book-btn" data-destination="Switzerland">Book Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>TravelGo</h4>
+          <p>Your trusted partner for unforgettable journeys around the world.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>hello@travelgo.com</li>
+            <li>+91 98765 43210</li>
+            <li>Chennai, India</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2026 TravelGo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ========== BOOKING MODAL ========== -->
+  <div class="modal" id="bookingModal">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal" aria-label="Close">&times;</button>
+      <h2>Book Your Trip</h2>
+      <form id="bookingForm" novalidate>
+        <div class="form-group">
+          <label for="bookName">Full Name</label>
+          <input type="text" id="bookName" placeholder="Your name">
+          <p class="error" id="bookNameError"></p>
+        </div>
+        <div class="form-group">
+          <label for="bookEmail">Email</label>
+          <input type="email" id="bookEmail" placeholder="you@example.com">
+          <p class="error" id="bookEmailError"></p>
+        </div>
+        <div class="form-group">
+          <label for="bookDestination">Destination</label>
+          <select id="bookDestination">
+            <option>Paris</option>
+            <option>Dubai</option>
+            <option>Maldives</option>
+            <option>Singapore</option>
+            <option>London</option>
+            <option>Goa</option>
+            <option>Bali</option>
+            <option>Switzerland</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="bookDate">Travel Date</label>
+          <input type="date" id="bookDate">
+          <p class="error" id="bookDateError"></p>
+        </div>
+        <div class="form-group">
+          <label for="bookGuests">Number of Travellers</label>
+          <input type="number" id="bookGuests" value="1" min="1">
+          <p class="error" id="bookGuestsError"></p>
+        </div>
+        <button type="submit" class="btn btn-full">Confirm Booking</button>
+        <p class="success" id="bookingSuccess"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
